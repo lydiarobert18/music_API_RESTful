@@ -1,0 +1,18 @@
+MUSIC MASHUP | CONSIGNES
+
+Écran 1 : 
+Le premier écran affiche sous forme d'images cliquables les 50 artistes du moment. En cliquant sur un artiste, on est amené sur l'écran 2.
+
+Écran 2 : 
+Cet écran affiche des infos détaillées sur un artiste, tel que son nom et ses albums. Les albums sont affichés sous forme d'images cliquables. En cliquant sur un album, on est amené vers l'écran 3.
+
+Écran 3 : 
+Cet écran affiche des infos sur un album, tel que son nom et ses différentes chansons. Les chansons sont cliquables. En cliquant dessus, le clip vidéo de cette chanson est affiché et lancé.
+
+
+CONTRAINTES : 
+Les données musicales sont issues de l'api last.fm, et les données vidéos, de Youtube. 
+Aucun PHP ni MySQL n'est autorisé, et aucun changement de page non plus. Tout se passe sur index.html. 
+Les requêtes aux apis doivent recevoir des réponses au format json. 
+
+Voir le fichier api_keys.txt pour des infos sur les apis. 

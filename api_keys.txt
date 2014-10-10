@@ -1,0 +1,26 @@
+LAST.FM
+	user : machinchoseform
+	pass : 1234567violette
+
+	api key :
+	c87a6a99b204fa9f82637d7cf25fc7f1
+
+	urls utiles : 
+		http://www.lastfm.fr/api/intro
+		http://www.lastfm.fr/api/show/chart.getHypedArtists 
+		ou 
+		http://www.lastfm.fr/api/show/geo.getTopArtists
+		
+		http://www.lastfm.fr/api/show/artist.getInfo
+		http://www.lastfm.fr/api/show/artist.getTopAlbums
+		http://www.lastfm.fr/api/show/album.getInfo
+		http://www.lastfm.fr/api/show/track.getInfo
+
+
+YOUTUBE
+	api key :
+		AIzaSyBa3BsHMug2jQg83fp_DMpbnDMSbk6sUhk
+
+	urls utiles :
+		https://developers.google.com/youtube/v3/docs/search/list#try-it
+		https://developers.google.com/youtube/player_parameters#Manual_IFrame_Embeds

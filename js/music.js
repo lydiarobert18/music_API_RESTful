@@ -1,5 +1,6 @@
 function showTopArtists(response){
 	//boucle sur les résultats
+	//response   print_r;
 	for(i in response.topartists.artist){
 		//crée une balise image
 		var img = $("<img>"); 
@@ -64,6 +65,7 @@ function showAlbumDetails(response){
 	$("#wrapper").append(ul);
 }
 
+//http://ws.audioscrobbler.com/2.0/?method=geo.gettopartists&country=spain&api_key=c87a6a99b204fa9f82637d7cf25fc7f1&format=json
 
 function getTopArtists(){
 
@@ -150,7 +152,6 @@ $("body").on("click", ".tracks-ul li", function(){
 	var videoName = $(this).text();
 	getAndShowVideo(videoName);
 });
-
 
 
 getTopArtists();
